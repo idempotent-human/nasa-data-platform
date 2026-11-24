@@ -1,13 +1,7 @@
-#сначала нам конечно же нужно разобраться с джойсонами астероидов metadata пустой же
-#обход структуры json
-#определение типов полей
-#определение вложенности
-#обработка массивов
-#
 from dataclasses import dataclass, field
 from typing import Any
 import logging
-#тут было бы удобно написать алгоритм обхода дерева
+
 @dataclass
 class FieldProfile:
     """Профиль отдельного поля/ колонки / ключа JSON"""
